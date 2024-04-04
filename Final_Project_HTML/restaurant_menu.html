@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ramen Fury</title>
+    </head>
+    <body>
+        <header>
+            <img src="https://images.pexels.com/photos/2169922/pexels-photo-2169922.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt=" ">
+            <h1>Ramen Fury</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#order-form">Command</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="menu">
+                <h2>Menu</h2>
+                <article>
+                    <img src="https://th.bing.com/th/id/OIP.JYbL_Gb835yAYLh06euocAAAAA?w=400&h=400&rs=1&pid=ImgDetMain" alt=" ">
+                    <h3>Our great Spicy chicken Ramen Noodle Soup</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </article>
+                <article>
+                    <img src="https://images.getrecipekit.com/20220508230436-salmon-20bacon-20teriyaki-20ramen.jpg?width=650&quality=90&" alt=" ">
+                    <h3>Our great Salmon Bacon Teriyaki Ramen</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </article>
+                <article>
+                    <img src="https://cdn.shopify.com/s/files/1/0557/8545/5765/files/KOREAN_BBQ_TB-2_480x480.jpg?v=1649967500" alt=" ">
+                    <h3>Our great Kimchi Ramen</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </article>
+            </section>
+            <section id="order-form">
+                <h2>Place Your Order</h2>
+                <form>
+                    <label for="commands-number">How many dish</label>
+                    <input type="number" min="0" max="10" id="commands-number" required/>
+                    <fieldset>
+                        <legend>Select your dish</legend>
+                        <input type="radio" name="radio-ramen" id="chickennoodle"/>
+                        <label for="chickennoodle">Chicken noodle ramen</label>
+                        <input type="radio" name="radio-ramen" id="teriyaki">
+                        <label for="teriyaki">Teriyaki ramen</label>
+                        <input type="radio" name="radio-ramen" id="kimchi"/>
+                        <label for="kimchi">Kimchi ramen</label>
+                    </fieldset>
+                    <label for="sidedish">Tell us your Side dish.</label>
+                    <textarea id="sidedish" rows="5" cols="33">Salad, onions...</textarea>
+                    <button type="submit">Go to checkout</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Made with love by PamU42</p>
+        </footer>
+    </body>
+</html>
